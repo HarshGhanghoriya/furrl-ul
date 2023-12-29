@@ -36,3 +36,48 @@
     transform: rotate(360deg);
   }
 }
+
+.card-layout{
+  min-height: 12rem;
+  width: 15rem;
+  padding: 1.5rem 1.8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-top: 5px solid #653780
+}
+
+.spacing-lg{
+  padding: 3.25rem 5rem
+}
+
+.size-img{
+  height: 4rem !important;
+  width: 4rem !important;
+
+}
+.intro-div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.designation-div{
+  display: flex;
+  gap:5px;
+}
+.designation-div.margin{
+  margin-top: 0.5rem;
+}
+.role{
+  background: #d6b4fc;
+  font-size: 0.7rem;
+  padding: 0.2rem;
+  font-weight: bold;
+  width: 3rem;
+  text-align: center;
+  border-radius: 5px
+}
+
+.designation{
+  color: #7f8fda
+}
