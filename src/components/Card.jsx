@@ -20,10 +20,7 @@ export const Cards = ({ details }) => {
                 <td className="designation">{details.email}</td>
               </tr>
           </table>
-          {/* <div className="designation-div margin">
-            <div className="role">Team</div>
-            <div className="designation">{details.designation}</div>
-          </div> */}
+          
           <table >
               <tr className="">
                 <td className="role" >Team</td>

@@ -2,24 +2,12 @@ import { Cards } from "./Card";
 import "../App.css";
 export const EmployeeTree = ({ employessData }) => {
 
-  function checkWidth(members) {
-    let width = 30;
-    if (members.length >= 1) {
-      const length = members.length;
-      width = width * length;
-    }
-
-    return {
-      width: `${width}rem`,
-    };
-  }
 
   return (
     <>
       <div
         className="intro-div"
         key={`${employessData.email}`}
-        //  style={checkWidth(employessData.directReports || [])}
       >
              
      
