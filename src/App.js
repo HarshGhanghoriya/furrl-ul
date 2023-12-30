@@ -1,28 +1,33 @@
-import { useEffect, useState } from "react"
-import "./App.css"
-import { Cards } from "./components/Card"
-import apis from "./api/api"
+import { useEffect, useState } from "react";
+import "./App.css";
+import apis from "./api/api";
+import { EmployeeTree } from "./components/EmployeeTree";
+
 function App() {
-  let [employessData, setEmployeesData] = useState([])
+  let [employessData, setEmployeesData] = useState([]);
 
   useEffect(() => {
     const fetchData = async () => {
-      const { response, error } = await apis.fetchData()
-      if (response) setEmployeesData(response)
+      const { response, error } = await apis.fetchData();
+      if (response) setEmployeesData(response[0]);
       else {
-        console.log(error)
+        console.log(error);
       }
-    }
+    };
 
-    fetchData()
-  }, [])
+    fetchData();
+  }, []);
 
-  console.log(employessData, "employees")
+  
+
+  console.log(employessData, "employees");
   return (
-    <section className="spacing-lg">
-      <Cards />
+    <section className="spacing-lg  intro-div">
+
+    <EmployeeTree employessData={employessData}/>
+
     </section>
-  )
+  );
 }
 
-export default App
+export default App;

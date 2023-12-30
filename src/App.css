@@ -37,6 +37,45 @@
   }
 }
 
+.vertical-line{
+  height: 45px;
+  width: 1px;
+  transform: rotate(180deg);
+  background-color: #000;
+  transform: translate(-0.06rem);
+  /* display: block;
+  margin: 30px auto;
+  width: 25px;
+  height: 25px;
+  border-top: 2px solid #00600;
+  border-left: 2px solid #000; */
+}
+
+
+.long-arrow-left{
+  display: block;
+  width: 25px;
+  height: 25px;
+  margin-top: 13px;
+  border-top: 2px solid #000;
+  border-left: 2px solid #000;
+}
+.long-arrow-left{
+  transform: rotate(-135deg);
+ }
+
+ .long-arrow-left::after{
+   content: "";
+   display: block;
+   width: 1px;
+   height: 45px;
+   background-color: black;
+   transform: rotate(135deg) translate(-1rem, -5px);
+   left: 0;
+   top: 0;
+ }
+
+
 .card-layout{
   min-height: 12rem;
   width: 15rem;
@@ -60,6 +99,13 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  
+}
+.intro-div-row{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap:2rem;
 }
 .designation-div{
   display: flex;
@@ -69,7 +115,7 @@
   margin-top: 0.5rem;
 }
 .role{
-  background: #d6b4fc;
+  background: #d6b4fc7e;
   font-size: 0.7rem;
   padding: 0.2rem;
   font-weight: bold;
@@ -79,5 +125,5 @@
 }
 
 .designation{
-  color: #7f8fda
+  color: #7f8fda;
 }

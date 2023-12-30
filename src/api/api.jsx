@@ -2,7 +2,7 @@
 const fetchData = async () => {
 
   try {
-    const response = await fetch("http://localhost:4000/employeesData")
+    const response = await fetch("http://localhost:3004/employeesData")
     const data = await response.json()
     return { response: data }
   } catch (error) {

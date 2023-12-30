@@ -3,7 +3,7 @@
         {
             "name": "David Jordan",
             "email": "michaelyork@example.com",
-            "designation": "Energy engineer",
+            "designation": "Founder",
             "directReports": [
                 {
                     "name": "Jennifer Malone",
@@ -89,7 +89,7 @@
                                         },
                                         {
                                             "name": "Dr. Matthew Neal MD",
-                                            "email": "wendymccullough@example.com",
+                                            "email": "wendymccul@example.com",
                                             "designation": "Oncologist",
                                             "reporting_manager": "ithomas@example.net"
                                         },
@@ -147,175 +147,182 @@
                                                                                             "name": "Paul Morgan",
                                                                                             "email": "obrown@example.com",
                                                                                             "designation": "Textile designer",
-                                                                                            "reporting_manager": "erinmcbride@example.com",
+                                                                                            "reporting_manager": "erinmcbride@example.com"
+                                                                                            
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "name": "Jennifer Malone",
+                                                                    "email": "evansbrittany@example.org",
+                                                                    "designation": "Insurance account manager",
+                                                                    "reporting_manager": "michaelyork@example.com",
+                                                                    "directReports": [
+                                                                        {
+                                                                            "name": "Sara Mcmillan",
+                                                                            "email": "danielle99@example.net",
+                                                                            "designation": "Interior and spatial designer",
+                                                                            "reporting_manager": "obrown@example.com",
+                                                                            "directReports": [
+                                                                                {
+                                                                                    "name": "Zachary Mcguire",
+                                                                                    "email": "hornecynthia@example.net",
+                                                                                    "designation": "Sport and exercise psychologist",
+                                                                                    "reporting_manager": "danielle99@example.net",
+                                                                                    "directReports": [
+                                                                                        {
+                                                                                            "name": "Jared May",
+                                                                                            "email": "merrittvalerie@example.net",
+                                                                                            "designation": "Designer, television/film set",
+                                                                                            "reporting_manager": "hornecynthia@example.net",
                                                                                             "directReports": [
                                                                                                 {
-                                                                                                    "name": "Sara Mcmillan",
-                                                                                                    "email": "danielle99@example.net",
-                                                                                                    "designation": "Interior and spatial designer",
-                                                                                                    "reporting_manager": "obrown@example.com",
+                                                                                                    "name": "Melissa Acevedo",
+                                                                                                    "email": "hgregory@example.com",
+                                                                                                    "designation": "Chief of Staff",
+                                                                                                    "reporting_manager": "merrittvalerie@example.net",
                                                                                                     "directReports": [
                                                                                                         {
-                                                                                                            "name": "Zachary Mcguire",
-                                                                                                            "email": "hornecynthia@example.net",
-                                                                                                            "designation": "Sport and exercise psychologist",
-                                                                                                            "reporting_manager": "danielle99@example.net",
+                                                                                                            "name": "Francisco Goodman",
+                                                                                                            "email": "jboyd@example.org",
+                                                                                                            "designation": "Visual merchandiser",
+                                                                                                            "reporting_manager": "hgregory@example.com",
                                                                                                             "directReports": [
                                                                                                                 {
-                                                                                                                    "name": "Jared May",
-                                                                                                                    "email": "merrittvalerie@example.net",
-                                                                                                                    "designation": "Designer, television/film set",
-                                                                                                                    "reporting_manager": "hornecynthia@example.net",
+                                                                                                                    "name": "Matthew Levy",
+                                                                                                                    "email": "mackenzieterry@example.org",
+                                                                                                                    "designation": "Hotel manager",
+                                                                                                                    "reporting_manager": "jboyd@example.org",
                                                                                                                     "directReports": [
                                                                                                                         {
-                                                                                                                            "name": "Melissa Acevedo",
-                                                                                                                            "email": "hgregory@example.com",
-                                                                                                                            "designation": "Chief of Staff",
-                                                                                                                            "reporting_manager": "merrittvalerie@example.net",
+                                                                                                                            "name": "Daniel Stevenson",
+                                                                                                                            "email": "dana72@example.com",
+                                                                                                                            "designation": "Hydrographic surveyor",
+                                                                                                                            "reporting_manager": "mackenzieterry@example.org",
                                                                                                                             "directReports": [
                                                                                                                                 {
-                                                                                                                                    "name": "Francisco Goodman",
-                                                                                                                                    "email": "jboyd@example.org",
-                                                                                                                                    "designation": "Visual merchandiser",
-                                                                                                                                    "reporting_manager": "hgregory@example.com",
+                                                                                                                                    "name": "Cindy Cox",
+                                                                                                                                    "email": "hwhite@example.net",
+                                                                                                                                    "designation": "Orthoptist",
+                                                                                                                                    "reporting_manager": "dana72@example.com",
                                                                                                                                     "directReports": [
                                                                                                                                         {
-                                                                                                                                            "name": "Matthew Levy",
-                                                                                                                                            "email": "mackenzieterry@example.org",
-                                                                                                                                            "designation": "Hotel manager",
-                                                                                                                                            "reporting_manager": "jboyd@example.org",
+                                                                                                                                            "name": "William Miller",
+                                                                                                                                            "email": "tamara84@example.net",
+                                                                                                                                            "designation": "Designer, multimedia",
+                                                                                                                                            "reporting_manager": "hwhite@example.net",
                                                                                                                                             "directReports": [
                                                                                                                                                 {
-                                                                                                                                                    "name": "Daniel Stevenson",
-                                                                                                                                                    "email": "dana72@example.com",
-                                                                                                                                                    "designation": "Hydrographic surveyor",
-                                                                                                                                                    "reporting_manager": "mackenzieterry@example.org",
+                                                                                                                                                    "name": "Kevin Hoffman",
+                                                                                                                                                    "email": "carl87@example.com",
+                                                                                                                                                    "designation": "Police officer",
+                                                                                                                                                    "reporting_manager": "tamara84@example.net",
                                                                                                                                                     "directReports": [
                                                                                                                                                         {
-                                                                                                                                                            "name": "Cindy Cox",
-                                                                                                                                                            "email": "hwhite@example.net",
-                                                                                                                                                            "designation": "Orthoptist",
-                                                                                                                                                            "reporting_manager": "dana72@example.com",
+                                                                                                                                                            "name": "Michele Durham",
+                                                                                                                                                            "email": "april82@example.org",
+                                                                                                                                                            "designation": "Site engineer",
+                                                                                                                                                            "reporting_manager": "carl87@example.com",
                                                                                                                                                             "directReports": [
                                                                                                                                                                 {
-                                                                                                                                                                    "name": "William Miller",
-                                                                                                                                                                    "email": "tamara84@example.net",
-                                                                                                                                                                    "designation": "Designer, multimedia",
-                                                                                                                                                                    "reporting_manager": "hwhite@example.net",
+                                                                                                                                                                    "name": "Matthew Gould",
+                                                                                                                                                                    "email": "dunnashley@example.net",
+                                                                                                                                                                    "designation": "Conservation officer, nature",
+                                                                                                                                                                    "reporting_manager": "april82@example.org",
                                                                                                                                                                     "directReports": [
                                                                                                                                                                         {
-                                                                                                                                                                            "name": "Kevin Hoffman",
-                                                                                                                                                                            "email": "carl87@example.com",
-                                                                                                                                                                            "designation": "Police officer",
-                                                                                                                                                                            "reporting_manager": "tamara84@example.net",
+                                                                                                                                                                            "name": "Sarah Guzman",
+                                                                                                                                                                            "email": "tdunn@example.com",
+                                                                                                                                                                            "designation": "Drilling engineer",
+                                                                                                                                                                            "reporting_manager": "dunnashley@example.net",
                                                                                                                                                                             "directReports": [
                                                                                                                                                                                 {
-                                                                                                                                                                                    "name": "Michele Durham",
-                                                                                                                                                                                    "email": "april82@example.org",
-                                                                                                                                                                                    "designation": "Site engineer",
-                                                                                                                                                                                    "reporting_manager": "carl87@example.com",
+                                                                                                                                                                                    "name": "Kristen Pitts",
+                                                                                                                                                                                    "email": "lindseyrodriguez@example.org",
+                                                                                                                                                                                    "designation": "Dietitian",
+                                                                                                                                                                                    "reporting_manager": "tdunn@example.com",
                                                                                                                                                                                     "directReports": [
                                                                                                                                                                                         {
-                                                                                                                                                                                            "name": "Matthew Gould",
-                                                                                                                                                                                            "email": "dunnashley@example.net",
-                                                                                                                                                                                            "designation": "Conservation officer, nature",
-                                                                                                                                                                                            "reporting_manager": "april82@example.org",
+                                                                                                                                                                                            "name": "Alex Smith",
+                                                                                                                                                                                            "email": "xhall@example.net",
+                                                                                                                                                                                            "designation": "Set designer",
+                                                                                                                                                                                            "reporting_manager": "lindseyrodriguez@example.org",
                                                                                                                                                                                             "directReports": [
                                                                                                                                                                                                 {
-                                                                                                                                                                                                    "name": "Sarah Guzman",
-                                                                                                                                                                                                    "email": "tdunn@example.com",
-                                                                                                                                                                                                    "designation": "Drilling engineer",
-                                                                                                                                                                                                    "reporting_manager": "dunnashley@example.net",
+                                                                                                                                                                                                    "name": "Alicia Patton",
+                                                                                                                                                                                                    "email": "josephwhite@example.com",
+                                                                                                                                                                                                    "designation": "Textile designer",
+                                                                                                                                                                                                    "reporting_manager": "xhall@example.net",
                                                                                                                                                                                                     "directReports": [
                                                                                                                                                                                                         {
-                                                                                                                                                                                                            "name": "Kristen Pitts",
-                                                                                                                                                                                                            "email": "lindseyrodriguez@example.org",
-                                                                                                                                                                                                            "designation": "Dietitian",
-                                                                                                                                                                                                            "reporting_manager": "tdunn@example.com",
+                                                                                                                                                                                                            "name": "Carol Pope",
+                                                                                                                                                                                                            "email": "keithwinters@example.net",
+                                                                                                                                                                                                            "designation": "Editorial assistant",
+                                                                                                                                                                                                            "reporting_manager": "josephwhite@example.com",
                                                                                                                                                                                                             "directReports": [
                                                                                                                                                                                                                 {
-                                                                                                                                                                                                                    "name": "Alex Smith",
-                                                                                                                                                                                                                    "email": "xhall@example.net",
-                                                                                                                                                                                                                    "designation": "Set designer",
-                                                                                                                                                                                                                    "reporting_manager": "lindseyrodriguez@example.org",
+                                                                                                                                                                                                                    "name": "Anthony Li",
+                                                                                                                                                                                                                    "email": "oreynolds@example.net",
+                                                                                                                                                                                                                    "designation": "Insurance risk surveyor",
+                                                                                                                                                                                                                    "reporting_manager": "keithwinters@example.net",
                                                                                                                                                                                                                     "directReports": [
                                                                                                                                                                                                                         {
-                                                                                                                                                                                                                            "name": "Alicia Patton",
-                                                                                                                                                                                                                            "email": "josephwhite@example.com",
-                                                                                                                                                                                                                            "designation": "Textile designer",
-                                                                                                                                                                                                                            "reporting_manager": "xhall@example.net",
+                                                                                                                                                                                                                            "name": "Warren Hunt",
+                                                                                                                                                                                                                            "email": "cisneroscaitlin@example.com",
+                                                                                                                                                                                                                            "designation": "Buyer, industrial",
+                                                                                                                                                                                                                            "reporting_manager": "oreynolds@example.net",
                                                                                                                                                                                                                             "directReports": [
                                                                                                                                                                                                                                 {
-                                                                                                                                                                                                                                    "name": "Carol Pope",
-                                                                                                                                                                                                                                    "email": "keithwinters@example.net",
-                                                                                                                                                                                                                                    "designation": "Editorial assistant",
-                                                                                                                                                                                                                                    "reporting_manager": "josephwhite@example.com",
+                                                                                                                                                                                                                                    "name": "Denise Stevenson",
+                                                                                                                                                                                                                                    "email": "mbowen@example.com",
+                                                                                                                                                                                                                                    "designation": "Health visitor",
+                                                                                                                                                                                                                                    "reporting_manager": "cisneroscaitlin@example.com",
                                                                                                                                                                                                                                     "directReports": [
                                                                                                                                                                                                                                         {
-                                                                                                                                                                                                                                            "name": "Anthony Li",
-                                                                                                                                                                                                                                            "email": "oreynolds@example.net",
-                                                                                                                                                                                                                                            "designation": "Insurance risk surveyor",
-                                                                                                                                                                                                                                            "reporting_manager": "keithwinters@example.net",
+                                                                                                                                                                                                                                            "name": "Darrell Brooks",
+                                                                                                                                                                                                                                            "email": "katherine59@example.org",
+                                                                                                                                                                                                                                            "designation": "Cartographer",
+                                                                                                                                                                                                                                            "reporting_manager": "mbowen@example.com",
                                                                                                                                                                                                                                             "directReports": [
                                                                                                                                                                                                                                                 {
-                                                                                                                                                                                                                                                    "name": "Warren Hunt",
-                                                                                                                                                                                                                                                    "email": "cisneroscaitlin@example.com",
-                                                                                                                                                                                                                                                    "designation": "Buyer, industrial",
-                                                                                                                                                                                                                                                    "reporting_manager": "oreynolds@example.net",
+                                                                                                                                                                                                                                                    "name": "Natasha Griffin",
+                                                                                                                                                                                                                                                    "email": "andrechaney@example.com",
+                                                                                                                                                                                                                                                    "designation": "Therapist, drama",
+                                                                                                                                                                                                                                                    "reporting_manager": "katherine59@example.org",
                                                                                                                                                                                                                                                     "directReports": [
                                                                                                                                                                                                                                                         {
-                                                                                                                                                                                                                                                            "name": "Denise Stevenson",
-                                                                                                                                                                                                                                                            "email": "mbowen@example.com",
-                                                                                                                                                                                                                                                            "designation": "Health visitor",
-                                                                                                                                                                                                                                                            "reporting_manager": "cisneroscaitlin@example.com",
+                                                                                                                                                                                                                                                            "name": "Kristin Wagner",
+                                                                                                                                                                                                                                                            "email": "mcooper@example.net",
+                                                                                                                                                                                                                                                            "designation": "Neurosurgeon",
+                                                                                                                                                                                                                                                            "reporting_manager": "andrechaney@example.com",
                                                                                                                                                                                                                                                             "directReports": [
                                                                                                                                                                                                                                                                 {
-                                                                                                                                                                                                                                                                    "name": "Darrell Brooks",
-                                                                                                                                                                                                                                                                    "email": "katherine59@example.org",
-                                                                                                                                                                                                                                                                    "designation": "Cartographer",
-                                                                                                                                                                                                                                                                    "reporting_manager": "mbowen@example.com",
+                                                                                                                                                                                                                                                                    "name": "Erin Freeman",
+                                                                                                                                                                                                                                                                    "email": "victoriawoods@example.com",
+                                                                                                                                                                                                                                                                    "designation": "Scientist, biomedical",
+                                                                                                                                                                                                                                                                    "reporting_manager": "mcooper@example.net",
                                                                                                                                                                                                                                                                     "directReports": [
                                                                                                                                                                                                                                                                         {
-                                                                                                                                                                                                                                                                            "name": "Natasha Griffin",
-                                                                                                                                                                                                                                                                            "email": "andrechaney@example.com",
-                                                                                                                                                                                                                                                                            "designation": "Therapist, drama",
-                                                                                                                                                                                                                                                                            "reporting_manager": "katherine59@example.org",
+                                                                                                                                                                                                                                                                            "name": "Tamara Miller",
+                                                                                                                                                                                                                                                                            "email": "scottbradley@example.com",
+                                                                                                                                                                                                                                                                            "designation": "Engineer, civil (contracting)",
+                                                                                                                                                                                                                                                                            "reporting_manager": "victoriawoods@example.com",
                                                                                                                                                                                                                                                                             "directReports": [
                                                                                                                                                                                                                                                                                 {
-                                                                                                                                                                                                                                                                                    "name": "Kristin Wagner",
-                                                                                                                                                                                                                                                                                    "email": "mcooper@example.net",
-                                                                                                                                                                                                                                                                                    "designation": "Neurosurgeon",
-                                                                                                                                                                                                                                                                                    "reporting_manager": "andrechaney@example.com",
+                                                                                                                                                                                                                                                                                    "name": "Mrs. Pamela Mcbride",
+                                                                                                                                                                                                                                                                                    "email": "neallisa@example.org",
+                                                                                                                                                                                                                                                                                    "designation": "Education administrator",
+                                                                                                                                                                                                                                                                                    "reporting_manager": "scottbradley@example.com",
                                                                                                                                                                                                                                                                                     "directReports": [
                                                                                                                                                                                                                                                                                         {
-                                                                                                                                                                                                                                                                                            "name": "Erin Freeman",
-                                                                                                                                                                                                                                                                                            "email": "victoriawoods@example.com",
-                                                                                                                                                                                                                                                                                            "designation": "Scientist, biomedical",
-                                                                                                                                                                                                                                                                                            "reporting_manager": "mcooper@example.net",
-                                                                                                                                                                                                                                                                                            "directReports": [
-                                                                                                                                                                                                                                                                                                {
-                                                                                                                                                                                                                                                                                                    "name": "Tamara Miller",
-                                                                                                                                                                                                                                                                                                    "email": "scottbradley@example.com",
-                                                                                                                                                                                                                                                                                                    "designation": "Engineer, civil (contracting)",
-                                                                                                                                                                                                                                                                                                    "reporting_manager": "victoriawoods@example.com",
-                                                                                                                                                                                                                                                                                                    "directReports": [
-                                                                                                                                                                                                                                                                                                        {
-                                                                                                                                                                                                                                                                                                            "name": "Mrs. Pamela Mcbride",
-                                                                                                                                                                                                                                                                                                            "email": "neallisa@example.org",
-                                                                                                                                                                                                                                                                                                            "designation": "Education administrator",
-                                                                                                                                                                                                                                                                                                            "reporting_manager": "scottbradley@example.com",
-                                                                                                                                                                                                                                                                                                            "directReports": [
-                                                                                                                                                                                                                                                                                                                {
-                                                                                                                                                                                                                                                                                                                    "name": "Lori Martin",
-                                                                                                                                                                                                                                                                                                                    "email": "thompsonbrent@example.net",
-                                                                                                                                                                                                                                                                                                                    "designation": "Estate manager/land agent",
-                                                                                                                                                                                                                                                                                                                    "reporting_manager": "neallisa@example.org"
-                                                                                                                                                                                                                                                                                                                }
-                                                                                                                                                                                                                                                                                                            ]
-                                                                                                                                                                                                                                                                                                        }
-                                                                                                                                                                                                                                                                                                    ]
-                                                                                                                                                                                                                                                                                                }
-                                                                                                                                                                                                                                                                                            ]
+                                                                                                                                                                                                                                                                                            "name": "Lori Martin",
+                                                                                                                                                                                                                                                                                            "email": "thompsonbrent@example.net",
+                                                                                                                                                                                                                                                                                            "designation": "Estate manager/land agent",
+                                                                                                                                                                                                                                                                                            "reporting_manager": "neallisa@example.org"
                                                                                                                                                                                                                                                                                         }
                                                                                                                                                                                                                                                                                     ]
                                                                                                                                                                                                                                                                                 }
@@ -380,8 +387,20 @@
                                     ]
                                 }
                             ]
+                        },
+                        {
+                            "name": "Jennifer Malone",
+                            "email": "evansbrittany@example.org",
+                            "designation": "Insurance account manager",
+                            "reporting_manager": "michaelyork@example.com"
                         }
                     ]
+                },
+                {
+                    "name": "Jennifer Malone",
+                    "email": "evansbrittany@example.org",
+                    "designation": "Insurance account manager",
+                    "reporting_manager": "michaelyork@example.com"
                 }
             ]
         }
